@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Fetching application developed with javascript ES6 version, following the Udemy Tutorial from @jonasschmedtmann.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvestrevivo/forkify.git"
+  },
+  "keywords": [
+    "parcel",
+    "es6",
+    "udemy",
+    "tutorial"
+  ],
+  "author": "@silvestrevivo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvestrevivo/forkify/issues"
+  },
+  "homepage": "https://github.com/silvestrevivo/forkify#readme"
+}
