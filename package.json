@@ -4,6 +4,7 @@
   "description": "Fetching application developed with javascript ES6 version, following the Udemy Tutorial from @jonasschmedtmann.",
   "main": "index.html",
   "scripts": {
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
