@@ -1,1 +1,3 @@
-console.log('project started, ES6')
+import str from './search'
+
+console.log(str)
