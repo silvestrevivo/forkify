@@ -21,7 +21,7 @@ const state = {}
 
 const controlSearch = async () => {
   // 1) Get query from the view
-  const query = searchView.getInput;
+  const query = searchView.getInput();
 
   if (query) {
     // 2) we create a new instance of Search object
