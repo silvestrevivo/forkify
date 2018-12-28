@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build index.html --out-dir build/ --public-url ./",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,8 @@
   "homepage": "https://github.com/silvestrevivo/forkify#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "babel-runtime": "^6.26.0"
+    "babel-runtime": "^6.26.0",
+    "gh-pages": "^2.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -33,6 +35,12 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
-  }
+    "babel-preset-stage-0": "^6.24.1",
+    "cssnano": "^4.1.8",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "parcel-plugin-clean-easy": "^1.0.2"
+  },
+  "parcelCleanPaths": [
+    "build/*.*"
+  ]
 }
